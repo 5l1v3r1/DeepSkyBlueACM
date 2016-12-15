@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "webYekan";
+    src: url('../webyekan/webyekan.eot');
+    src: url('../webyekan/webyekan.eot#iefix') format('embedded-opentype'),
+         url('../webyekan/webyekan.woff') format('woff'),
+         url('../webyekan/webyekan.ttf') format('truetype'),
+         url('../webyekan/webyekan.svg#CartoGothicStdBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

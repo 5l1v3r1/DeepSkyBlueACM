@@ -1,0 +1,77 @@
+<head>
+    <script src="game/js/jquery.min.js"></script>
+    <script src="game/js/jquery.transit.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <link rel="shortcut icon" type="image/png" href="img/faveicon.png"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+</head>
+<body style="background-color: white;" >
+<a  href="/bluppy">
+<h1 class="tooltipped" data-tooltip="Click to play again!" style="text-align: center;color: deepskyblue">Scoreboard</h1>
+<div data-tooltip="Click to play again!" data-position="top" class="card  tooltipped center hide-on-small-only " style=";width: 50%; margin: auto;background-color: deepskyblue">
+<table style="color: white;" class="bordered centered " >
+    <thead style="font-size: xx-large">
+    <tr>
+        <th data-field="id">Rank</th>
+        <th data-field="id">Name</th>
+        <th data-field="name">Score</th>
+        <!--<th data-field="price">Badge</th>-->
+    </tr>
+    </thead>
+    <tbody style="font-size: large">
+    <%players.forEach(function (player,index)  {%>
+        <tr>
+            <td>#<%=index+1%></td>
+            <td><%=player.name%></td>
+            <td><%=player.score%></td>
+            <!--<%if(player.score <20){%>-->
+            <!--<td> - </td>-->
+            <!--<%}if(player.score >= 20&&player.score <40){%>-->
+            <!--<td> <img style='border-radius: 50px;width: 50px;height: 50px' src="game/assets/medal_silver.png"></td>-->
+            <!--<%}if(player.score >= 40&&player.score <100){%>-->
+            <!--<td> <img style='border-radius: 50px;width: 50px;height: 50px'  src="game/assets/medal_gold.png"></td>-->
+            <!--<%}if(player.score >= 100){%>-->
+            <!--<td> <img style='border-radius: 50px;width: 50px;height: 50px'  src="game/assets/medal_platinium.png"></td>-->
+            <!--<%}%>-->
+        </tr>
+    <%})%>
+
+    </tbody>
+</table>
+</div>
+<div class="card  center hide-on-med-and-up " style=";width: 100%; margin: auto;background-color: deepskyblue">
+    <table style="color: white;" class="bordered centered " >
+        <thead style="font-size: xx-large">
+        <tr>
+            <th data-field="id">Rank</th>
+            <th data-field="id">Name</th>
+            <th data-field="name">Score</th>
+            <!--<th data-field="price">Badge</th>-->
+        </tr>
+        </thead>
+        <tbody style="font-size: large">
+        <%players.forEach(function (player,index)  {%>
+        <tr>
+            <td>#<%=index+1%></td>
+            <td><%=player.name%></td>
+            <td><%=player.score%></td>
+            <!--<%if(player.score <20){%>-->
+            <!--<td> - </td>-->
+            <!--<%}if(player.score >= 20&&player.score <40){%>-->
+            <!--<td> <img style='border-radius: 50px;width: 50px;height: 50px' src="game/assets/medal_silver.png"></td>-->
+            <!--<%}if(player.score >= 40&&player.score <100){%>-->
+            <!--<td> <img style='border-radius: 50px;width: 50px;height: 50px'  src="game/assets/medal_gold.png"></td>-->
+            <!--<%}if(player.score >= 100){%>-->
+            <!--<td> <img style='border-radius: 50px;width: 50px;height: 50px'  src="game/assets/medal_platinium.png"></td>-->
+            <!--<%}%>-->
+        </tr>
+        <%})%>
+
+        </tbody>
+    </table>
+</div>
+</a>
+</body>

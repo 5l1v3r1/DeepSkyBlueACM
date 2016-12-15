@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#2196F3">
+    <title>آبی آسمانی</title>
+    <link rel="shortcut icon" type="image/png" href="img/faveicon.png"/>
+
+    <!-- CSS  -->
+    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="min/custom-min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/rtl.css">
+    <link rel="stylesheet" type="text/css" href="font/webyekan/webyekan.css">
+    <link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.min.css" />
+</head>
+
+<body id="top" class="scrollspy header-box">
+
+
+  <div class="closeBtn"></div>
+  <div class="gameBox">
+    <div class="container">
+        <div class="row gameIntro gameDesktop">
+          <img src="./img/flappyBird.png" alt="">
+          <p>بازي كنيد و با گرفتن حداقل ١٠ امتياز پيكسل ببريد!</p>
+          <a href="./score" class="btn blue left myBtn">جدول امتیازات</a>
+          <a href="./bluppy" class="btn green left myBtn playGame">بازی کن</a>
+        </div>
+        <a href="./bluppy" class="row gameIntro gameMobile">
+          <img src="./img/flappyBird.png" alt="">
+          <p>بازي كنيد و با گرفتن حداقل ١٠ امتياز پيكسل ببريد!</p>
+        </a>
+    </div>
+  </div>
+
+  <div class="myloader-wrap">
+    <div class="loader-box">
+      <img src="./img/loader.gif" class="myloader" alt="loading...">
+    </div>
+  </div>
+
+    <!--Navigation-->
+    <div class="navbar-fixed">
+        <nav id="nav_f" class="default_color" role="navigation">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" id="logo-container" class="brand-logo right">آبی آسمانی</a>
+                    <ul class="left hide-on-med-and-down">
+                        <li><a href="#contact">ارتباط با ما</a></li>
+                        <li><a href="#team">تیم ما</a></li>
+                        <li><a href="#work">برنامه‌ها</a></li>
+                        <li><a href="#intro">درباره‌ی ما</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="side-nav">
+                        <li><a href="#intro">اهداف</a></li>
+                        <li><a href="#team">تیم ما</a></li>
+                        <li><a href="#contact">ارتباط با ما</a></li>
+                    </ul>
+                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Hero-->
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="clouds">
+          <!-- <div id="cloud0" class="cloud"></div> -->
+        </div>
+        <div class="container">
+            <h1 class="text_h center header cd-headline letters type">
+                <div class="typed-text"></div>
+            </h1>
+        </div>
+    </div>
+
+    <!--Intro and service-->
+    <div id="intro" class="section scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h4 class="center header text_h3 gray my-header">لازمه ی رسیدن به هر هدفی وجود آدم‌های مشتاق، پیگیر و منظمه که در کنار هم با توانایی‌های مختلفی که دارند برای رسیدن به ایده‌آل ها گام بردارند</h4>
+                </div>
+
+                <!-- <div class="col s12 m4 l4">
+                    <div class="center promo promo-example">
+                        <i class="mdi-image-flash-on"></i>
+                        <h5 class="promo-caption">یه تیتر واسه اینجا</h5>
+                        <p class="light center promo-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود
+                            ابزارهای کاربردی می باشد. </p>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="center promo promo-example">
+                        <i class="mdi-social-group"></i>
+                        <h5 class="promo-caption">یه تیترم واسه‌ی اینجا</h5>
+                        <p class="light center promo-text"> چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه
+                            و متخصصان را می طلبد تا با نرم افزارها شناخت بیستری را برای طراحان رایانه ای و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="center promo promo-example">
+                        <i class="mdi-hardware-desktop-windows"></i>
+                        <h5 class="promo-caption">یچیزی هم واسه اینجا</h5>
+                        <p class="light center promo-text"> در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!--Work-->
+    <div class="section scrollspy" id="work">
+        <div class="container">
+            <h2 class="header text_b">برنامه‌ها</h2>
+            <h5 class="header-info">روی هر قسمت کلیک کن تا اطلاعات بیشتری درموردش ببینی</h5>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/p1.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">کار آموزی<i class="mdi-navigation-more-vert right"></i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">کار آموزی<i class="mdi-navigation-close right"></i></span>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/p2.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">ICPC<i class="mdi-navigation-more-vert right"></i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">ICPC<i class="mdi-navigation-close right"></i></span>
+                            <p>و اما شاید یکی از مهم‌ترین بخش فعالیت های ای سی ام مسابقات ICPC باشه که هر ساله بهترین ها قراره برای رفتن به مسابقات جهانی با هم رقابت می‌کنن و در این مسیر با برگزاری کلاس و کانتست‌هایی که شما رو آماده خواهد کرد، همراهی می‌کنیم تا بتونید به بهترین ها برسید :)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/p3.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">همه با هم<i class="mdi-navigation-more-vert right"></i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">همه با هم<i class="mdi-navigation-close right"></i></span>
+                            <p>با مشارکت هر چه بیشتر شما، ایونت‌هایی منسجم‌تر و با برنامه‌‌ریزی دقیق‌تر رو برگزار کنیم و حتی در کنار برنامه‌هایی که از پیش تعیین کردیم دوست داریم رویدادی را برگزار کنیم که شما به ما میگین :)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/p4.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">X-Contest<i class="mdi-navigation-more-vert right"></i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">X-Contest<i class="mdi-navigation-close right"></i></span>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/p5.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">پروژه کارشناسی<i class="mdi-navigation-more-vert right"></i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">پروژه کارشناسی<i class="mdi-navigation-close right"></i></span>
+                            <p>هرچی که ترم های بیشتری رو پشت سر میذارید علاوه بر کارهای فوق برنامه ای که کنار درس و پروژه های دانشگاه دوست دارید انجام بدید شاید براتون مهم باشه برای کارآموزی کجا برید یا موضوع پایان نامتون رو چی انتخاب کنید تا هم در راستای علایقتون جلو رفته باشید و هم به درد آیندتون بخوره! این بار دوست داریم از طرف انجمن ارتباط شما رو به سادگی با شرکت های مختلف برقرار کنیم تا با یک تیر بتونید دو نشون بزنید و هم کار علمی کرده باشید و هم وارد صنعت شده باشید :دی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/p6.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Hackathon<i class="mdi-navigation-more-vert right"></i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Hackathon<i class="mdi-navigation-close right"></i></span>
+                            <p>از اونجایی که همیشه یکی از دغدغه های مهم بچه‌ها یادگرفتن چیزای مختلف بوده  و شاید یکی از اولین مشغولیت‌های ذهنیشون این باشه که چی رو از کجا یاد بگیرم تا بتونم این همه ایده ای که دارم رو عملی کنم، دوست داریم با برگزاری کلاس‌های مختلف و ورکشاپ هایی مثل هکاتون یا سامر آو کد ایده های شما رو به ثمر بنشونیم تا طی یک تجربه ی تیمی فوق العاده در کنار بقیه بتونید مهارت های لازم رو برای وارد شدن به بازار کار کسب کنید :)
+</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- more -->
+
+
+            </div>
+
+            <a class="plusBtn btn green center">
+              برنامه های دیگر
+            </a>
+
+        </div>
+    </div>
+
+    <!--Parallax-->
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/parallax1.png"></div>
+    </div>
+
+    <!--Team-->
+    <div class="section scrollspy" id="team">
+        <div class="container">
+            <h2 class="header text_b">تیم ما</h2>
+            <div class="row">
+
+                <div class="my-slider">
+                    <ul class="box">
+                        <li>
+                            <img src="img/amirhossein.jpg" class="pictureProfile amirhoseinImg" alt="">
+                            <div class="text">
+                                <h4 class="title">امیرحسین صیحانی</h4>
+                                <p class="tag blue">رییس</p>
+                                <p class="tag orange">ورودی ۹۳</p>
+                                <p class="tag green">فناوری اطلاعات</p>
+
+                                <p class="info">
+                                  سلام، امیرحسین صیحانی هستم، ورودی ۹۳ IT. یک سال درگیر بودن با ACM به عنوان یک عضو رسمی، تجربه‌های خیلی خوبی برام داشت. و روزهای خیلی خوبی رو باهش گذروندم. البته در کنار تمامی این روزهای خوب و جذاب، خستگی و فشار زیادی وجود داشت. با وجود اینکه این می‌دونم این فشارها با به عهده گرفتن مسئولیت ACM خیلی بیشتر هم میشه، ولی تصمیم گرفتم که بازهم درگیرش باشم. چون فکر می‌کنم ACM تنها جایی که هر کاری که براش کردم و می‌کنم (از بادکنک باد کردن و جابه‌جا کردن صندلی و حمل سماور! گرفته تا سایت زدن و طراحی سوال و برگزاری مسابقه و …) بی‌فایده نیست و نخواهد بود.
+                                </p>
+                            </div>
+                            <p class="info-mobile">
+                              سلام، امیرحسین صیحانی هستم، ورودی ۹۳ IT. یک سال درگیر بودن با ACM به عنوان یک عضو رسمی، تجربه‌های خیلی خوبی برام داشت. و روزهای خیلی خوبی رو باهش گذروندم. البته در کنار تمامی این روزهای خوب و جذاب، خستگی و فشار زیادی وجود داشت. با وجود اینکه این می‌دونم این فشارها با به عهده گرفتن مسئولیت ACM خیلی بیشتر هم میشه، ولی تصمیم گرفتم که بازهم درگیرش باشم. چون فکر می‌کنم ACM تنها جایی که هر کاری که براش کردم و می‌کنم (از بادکنک باد کردن و جابه‌جا کردن صندلی و حمل سماور! گرفته تا سایت زدن و طراحی سوال و برگزاری مسابقه و …) بی‌فایده نیست و نخواهد بود.
+                            </p>
+                        </li>
+                        <li>
+                            <img src="img/hoda.jpg" class="pictureProfile hodaImg" alt="">
+                            <div class="text">
+                                <h4 class="title">هدی کرمانی</h4>
+                                <p class="tag blue">نایب رییس</p>
+                                <p class="tag orange">ورودی ۹۳</p>
+                                <p class="tag green">فناوری اطلاعات</p>
+
+                                <p class="info">
+                                  سلام. هدی کرمانی هستم، ورودی ۹۳ IT. از نظر شخصیتی منظم، با برنامه، کوشا و دقیقم. عاشق کارهای اجرایی‌ام و معتقدم آدم‌ها باید از قابلیت‌هاشون استفاده کنن. از مهر پارسال علاقه‌مند به مشارکت در فعالیت‌های ACM شدم و در چند برنامه‌ مسئولیت‌هایی رو قبول کردم. ارزش‌های زیادی از فعالیت در این برنامه‌ها بدست آوردم و چیزهایی زیادی درباره دانشکده‌مون و انتظارات بچه‌ها از دانشکده یادگرفتم. همه می‌دونن دانشکده‌مون پر از بهترین‌های کامیپوترِ ایرانه. حالا چی کار کنیم که بتونیم وارد بهترین شرکت‌ها هم بشیم؟ استادها خوب، پروژه‌ها (خیلی) خفن، بچه‌ها درس‌خون. مشکل کجاست؟! اکثر ما می‌آیم دانشگاه میان‌ترم، فاینال و تمام. پس حس دانشگاه تهرانی بودن کجا می‌ره؟ بخاطر همینه که ”آبی“ها تصمیم دارن با کمک همه‌ی CEها، در کنار برنامه‌های هر ساله ACM یه تغییراتی ایجاد کنن. مسلمه که هر قدم ACM تنها با کمک هممونه که ممکنه. پس بیاین ”با هم بالا برویم.“ خوشحال می‌شم که یک سال بتونم در کنار شما، برای تقویت ‌ACM و پیشرفتمون گام بردارم.
+                                </p>
+                            </div>
+                            <p class="info-mobile">
+                              سلام. هدی کرمانی هستم، ورودی ۹۳ IT. از نظر شخصیتی منظم، با برنامه، کوشا و دقیقم. عاشق کارهای اجرایی‌ام و معتقدم آدم‌ها باید از قابلیت‌هاشون استفاده کنن. از مهر پارسال علاقه‌مند به مشارکت در فعالیت‌های ACM شدم و در چند برنامه‌ مسئولیت‌هایی رو قبول کردم. ارزش‌های زیادی از فعالیت در این برنامه‌ها بدست آوردم و چیزهایی زیادی درباره دانشکده‌مون و انتظارات بچه‌ها از دانشکده یادگرفتم. همه می‌دونن دانشکده‌مون پر از بهترین‌های کامیپوترِ ایرانه. حالا چی کار کنیم که بتونیم وارد بهترین شرکت‌ها هم بشیم؟ استادها خوب، پروژه‌ها (خیلی) خفن، بچه‌ها درس‌خون. مشکل کجاست؟! اکثر ما می‌آیم دانشگاه میان‌ترم، فاینال و تمام. پس حس دانشگاه تهرانی بودن کجا می‌ره؟ بخاطر همینه که ”آبی“ها تصمیم دارن با کمک همه‌ی CEها، در کنار برنامه‌های هر ساله ACM یه تغییراتی ایجاد کنن. مسلمه که هر قدم ACM تنها با کمک هممونه که ممکنه. پس بیاین ”با هم بالا برویم.“ خوشحال می‌شم که یک سال بتونم در کنار شما، برای تقویت ‌ACM و پیشرفتمون گام بردارم.
+                            </p>
+
+                        </li>
+                        <li>
+                            <img src="img/negar.jpg" class="pictureProfile negarImg" alt="">
+                            <div class="text">
+                                <h4 class="title">نگار حق‌بین</h4>
+                                <p class="tag blue">خزانه‌دار</p>
+                                <p class="tag orange">ورودی ۹۲</p>
+                                <p class="tag green">نرم‌افزار</p>
+
+                                <p class="info">
+                                  سلام. نگار حق‌بین هستم، ورودی ۹۲ نرم‌افزار. از نظر شخصیتی با برنامه، کوشا و دقیقم. عاشق طراحیم! از جشن ACM دو سال قبل با فعالیت‌هاشون آشنا شدم و اولین همکاریم به عنوان رئیس بخش پذیرش برای همایش Ubuntu بود که حدود ۳۰۰-۴۰۰ نفر شرکت کرده بودند و یکی از بهترین خاطره ها شد برامون. از اون موقع هر وقت زمان اضافی داشتم به بچه‌های ACM کمک میکردم .
+                                </p>
+                            </div>
+                            <p class="info-mobile">
+                              سلام. نگار حق‌بین هستم، ورودی ۹۲ نرم‌افزار. از نظر شخصیتی با برنامه، کوشا و دقیقم. عاشق طراحیم! از جشن ACM دو سال قبل با فعالیت‌هاشون آشنا شدم و اولین همکاریم به عنوان رئیس بخش پذیرش برای همایش Ubuntu بود که حدود ۳۰۰-۴۰۰ نفر شرکت کرده بودند و یکی از بهترین خاطره ها شد برامون. از اون موقع هر وقت زمان اضافی داشتم به بچه‌های ACM کمک میکردم .
+                            </p>
+
+                        </li>
+                        <li>
+                            <img src="img/nafise.jpg" class="pictureProfile nafiseImg" alt="">
+                            <div class="text">
+                                <h4 class="title">نفیسه سجادی</h4>
+                                <p class="tag blue">دبیر</p>
+                                <p class="tag orange">ورودی ۹۳</p>
+                                <p class="tag green">سخت‌افزار</p>
+
+                                <p class="info">
+                                  سلام، نفیسه سادات سجادی هستم ورودی سخت‌افزار ۹۳ که تقریبا از بدو ورود به دانشگاه دوست داشتم علاوه بر درس خوندن و نمره گرفتن به تجربیات متفرقه‌ام هم اضافه کنم و این شد که علاوه بر درس دادن، کارهای اجرایی در زمینه ی المپیاد کردم. کارهایی مثل برگزاری المپیاد هندسه و المپیاد همزمان ریاضی (که همزمان با المپیاد بین‌المللی برگزار میشه). بعضی وقت‌ها هم در دانشگاه جسته و گریخته با ای‌سی‌ام همکاری کردم. مثل ایونت ابونتو و شرکت توی جلسات اف‌یک و این دست کارها :). این بار هم به واسطه‌ی تجربیاتی که بیرون از دانشگاه دارم شاید به عبارت دیگه با استفاده از تجربیات آدم‌های خفنی که تا به حال دیدم، دوست دارم با تیمی که داریم بتونیم ساختار بهتر و منظم‌تری رو برای ای‌سی‌ام درست کنیم تا هم برنامه‌های پربارتری داشته باشیم و هم کارهایی رو انجام بدیم که صرفا تکرار مکررات سال‌های پیش نباشه ;)
+                                </p>
+                            </div>
+                            <p class="info-mobile">
+                              سلام، نفیسه سادات سجادی هستم ورودی سخت‌افزار ۹۳ که تقریبا از بدو ورود به دانشگاه دوست داشتم علاوه بر درس خوندن و نمره گرفتن به تجربیات متفرقه‌ام هم اضافه کنم و این شد که علاوه بر درس دادن، کارهای اجرایی در زمینه ی المپیاد کردم. کارهایی مثل برگزاری المپیاد هندسه و المپیاد همزمان ریاضی (که همزمان با المپیاد بین‌المللی برگزار میشه). بعضی وقت‌ها هم در دانشگاه جسته و گریخته با ای‌سی‌ام همکاری کردم. مثل ایونت ابونتو و شرکت توی جلسات اف‌یک و این دست کارها :). این بار هم به واسطه‌ی تجربیاتی که بیرون از دانشگاه دارم شاید به عبارت دیگه با استفاده از تجربیات آدم‌های خفنی که تا به حال دیدم، دوست دارم با تیمی که داریم بتونیم ساختار بهتر و منظم‌تری رو برای ای‌سی‌ام درست کنیم تا هم برنامه‌های پربارتری داشته باشیم و هم کارهایی رو انجام بدیم که صرفا تکرار مکررات سال‌های پیش نباشه ;)
+                            </p>
+
+                        </li>
+                        <li>
+                            <img src="img/mahsa.jpg" class="pictureProfile mahsaImg" alt="">
+                            <div class="text">
+                                <h4 class="title">مهسا قزوینی‌نژاد</h4>
+                                <p class="tag blue">مسئول اعضا</p>
+                                <p class="tag orange">ورودی ۹۴</p>
+                                <p class="tag green">نرم‌افزار</p>
+                                <p class="tag grey">برنز المپیاد کامپیوتر</p>
+
+                                <p class="info">
+                                  سلام مهسا قزوینی نژاد، ورودی ۹۴ نرم‌افزار هستم. یکی از جذاب‌ترین قسمت‌های دانشگاه از نظر من جاییه که آدما به دور از تنش‌های درس و ددلاین و این همه کارای سنگینی که دانشگاه روی دوششون می ذاره، بتونن کار جذاب و لذت‌بخش انجام بدن، بتونن تاثیر گذار باشن و مهارت‌ها و تجربه‌هایی یادبگیرن که لزوما سرکلاس‌ها بهشون یاد نمی‌دن. چیزهایی که خودمون باید بریم دنبالش. از اوایل ترم پیش که ارتباط نزدیک‌تری با ACM پیدا کردم همه‌ی این اتفاق‌های جالب رو اونجا می‌تونم بگم که دیدم. آدمایی که بدون انتظار و چشم‌داشتی برای هدفی که فکر می‌کنن درسته تلاش می‌کنن. الان هم برام جالبه که بتونم تاثیرگذار باشم و کمک کنم تا همین قدر که این فضا برای من جالب و هیجان‌انگیز بود بتونه برای ورودی‌های جدید و بقیه‌ی آدما هم جالب باشه و بچه ها بتونن تاثیر بیشتری نسبت به قبل رو ACM‌ِ خودشون داشته باشن و ارتباط بهتری برقرار کنن تا بتونیم کنار هم دورهمی‌ها و مسابقات و ایونت‌ها و برنامه‌های جالبی بسازیم
+                                </p>
+                            </div>
+                            <p class="info-mobile">
+                              سلام مهسا قزوینی نژاد، ورودی ۹۴ نرم‌افزار هستم. یکی از جذاب‌ترین قسمت‌های دانشگاه از نظر من جاییه که آدما به دور از تنش‌های درس و ددلاین و این همه کارای سنگینی که دانشگاه روی دوششون می ذاره، بتونن کار جذاب و لذت‌بخش انجام بدن، بتونن تاثیر گذار باشن و مهارت‌ها و تجربه‌هایی یادبگیرن که لزوما سرکلاس‌ها بهشون یاد نمی‌دن. چیزهایی که خودمون باید بریم دنبالش. از اوایل ترم پیش که ارتباط نزدیک‌تری با ACM پیدا کردم همه‌ی این اتفاق‌های جالب رو اونجا می‌تونم بگم که دیدم. آدمایی که بدون انتظار و چشم‌داشتی برای هدفی که فکر می‌کنن درسته تلاش می‌کنن. الان هم برام جالبه که بتونم تاثیرگذار باشم و کمک کنم تا همین قدر که این فضا برای من جالب و هیجان‌انگیز بود بتونه برای ورودی‌های جدید و بقیه‌ی آدما هم جالب باشه و بچه ها بتونن تاثیر بیشتری نسبت به قبل رو ACM‌ِ خودشون داشته باشن و ارتباط بهتری برقرار کنن تا بتونیم کنار هم دورهمی‌ها و مسابقات و ایونت‌ها و برنامه‌های جالبی بسازیم
+                            </p>
+
+                        </li>
+                        <li>
+                            <img src="img/navid.jpg" class="pictureProfile navidImg" alt="">
+                            <div class="text">
+                                <h4 class="title">نوید رحیمی‌دانش</h4>
+                                <p class="tag blue">مسئول علمی</p>
+                                <p class="tag orange">ورودی ۹۴</p>
+                                <p class="tag green">نرم‌افزار</p>
+                                <p class="tag grey">برنز المپیاد کامپیوتر</p>
+
+                                <p class="info">
+                                  نوید رحیمی دانش ورودی 94 رشته‌ی نرم‌افزار هستم! المپیاد کامپیوتری بودم و عضو تیم icpc دانشگاهم. هدفم علاقه‌مند شدن همه‌ی دانشجوها به یادگیری و کار علمی هست بدون اینکه اجبار یا کم شدن نمره‌ای در کار باشه. که این هدف می‌تونه با ایجاد جو رقابتی و مسابقه و سمینارهای جذاب شکل بگیره.
+                                </p>
+                            </div>
+                            <p class="info-mobile">
+                              نوید رحیمی دانش ورودی 94 رشته‌ی نرم‌افزار هستم! المپیاد کامپیوتری بودم و عضو تیم icpc دانشگاهم. هدفم علاقه‌مند شدن همه‌ی دانشجوها به یادگیری و کار علمی هست بدون اینکه اجبار یا کم شدن نمره‌ای در کار باشه. که این هدف می‌تونه با ایجاد جو رقابتی و مسابقه و سمینارهای جذاب شکل بگیره.
+                            </p>
+
+                        </li>
+
+                        <li>
+                            <img src="img/sadegh.jpg" class="pictureProfile sadeghImg" alt="">
+                            <div class="text">
+                                <h4 class="title">صادق حایری</h4>
+                                <p class="tag blue">وب مستر</p>
+                                <p class="tag orange">ورودی ۹۴</p>
+                                <p class="tag green">فناوری اطلاعات</p>
+
+                                <p class="info">
+                                  سلام. صادق حایری ورودی ۹۴ IT هستم. قبل از ورود به دانشگاه به صورت حرفه‌ای کارهای front-end و طراحی سایت انجام می‌دادم. با ورود به دانشگاه علاقه‌مند به یادگیری حوزه‌های دیگر شدم و زمان‌های زیادی را برای این کار اختصاص دادم. تا آنجا که امروز به ابزارهای وب mongodb css html javescript jquery bootstrap nodejs mysql آشنا هستم و مایلیم این حوزه را حتی بیشتر نیز گسترش دهم. دوست دارم امکاناتی در اختیار همه‌ی کسانی که همانند من علاقه برای فعالیت در این زمینه‌ها دارند قرار گیرد تا زمینه پیشرفت برایشان فراهم شود. من نیز مایلم بخشی از این فرآیند پیشرفت باشم و ای سی ام را گامی برای این تحقق این آرمان‌ می‌دانم. ای سی ام را دوست دارم و به عنوان وب‌مستر آبی برنامه‌هایی زیادی دارم که مایلم آنها را اجرا کنم. تغییرات عمده‌ در وب سایت ای‌سی‌ام می‌تواند دوره‌ای جدید برای ای‌سی‌امی‌ها باشد.
+                                </p>
+                            </div>
+                            <p class="info-mobile">
+                              سلام. صادق حایری ورودی ۹۴ IT هستم. قبل از ورود به دانشگاه به صورت حرفه‌ای کارهای front-end و طراحی سایت انجام می‌دادم. با ورود به دانشگاه علاقه‌مند به یادگیری حوزه‌های دیگر شدم و زمان‌های زیادی را برای این کار اختصاص دادم. تا آنجا که امروز به ابزارهای وب mongodb css html javescript jquery bootstrap nodejs mysql آشنا هستم و مایلیم این حوزه را حتی بیشتر نیز گسترش دهم. دوست دارم امکاناتی در اختیار همه‌ی کسانی که همانند من علاقه برای فعالیت در این زمینه‌ها دارند قرار گیرد تا زمینه پیشرفت برایشان فراهم شود. من نیز مایلم بخشی از این فرآیند پیشرفت باشم و ای سی ام را گامی برای این تحقق این آرمان‌ می‌دانم. ای سی ام را دوست دارم و به عنوان وب‌مستر آبی برنامه‌هایی زیادی دارم که مایلم آنها را اجرا کنم. تغییرات عمده‌ در وب سایت ای‌سی‌ام می‌تواند دوره‌ای جدید برای ای‌سی‌امی‌ها باشد.
+                            </p>
+
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="slider-nav-box">
+                    <ul class="slider-nav">
+                        <li id="amirhossein" title="رییس" class="c0">
+                            <img src="img/amirhossein.jpg" alt="">
+                            <h5>امیرحسین</h5>
+                        </li>
+                        <li id="hoda" title="نایب رییس" class="c1">
+                            <img src="img/hoda.jpg" alt="">
+                            <h5>هدی</h5>
+                        </li>
+                        <li id="negar" title="خزانه‌دار" class="c2">
+                            <img src="img/negar.jpg" alt="">
+                            <h5>نگار</h5>
+                        </li>
+                        <li id="nafise" title="دبیر" class="c3">
+                            <img src="img/nafise.jpg" alt="">
+                            <h5>نفیسه</h5>
+                        </li>
+                        <li id="mahsa" title="مسئول اعضا" class="c4">
+                            <img src="img/mahsa.jpg" alt="">
+                            <h5>مهسا</h5>
+                        </li>
+                        <li id="navid" title="مسئول علمی" class="c5">
+                            <img src="img/navid.jpg" alt="">
+                            <h5>نوید</h5>
+                        </li>
+                        <li id="sadegh" title="وب‌مستر" class="c6">
+                            <img src="img/sadegh.jpg" alt="">
+                            <h5>صادق</h5>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <footer id="contact" class="page-footer default_color scrollspy">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col l8 s12">
+                    <form class="col s12" action="/message" method="post">
+                        <div class="row contactUs">
+                            <div class="input-field col s6">
+                                <!-- <i class="mdi-communication-email prefix white-text"></i> -->
+                                <input id="icon_email" name="email" type="email" tabindex="1" class="validate white-text">
+                                <label for="icon_email" class="white-text">ایمیل</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <!-- <i class="mdi-action-account-circle prefix white-text"></i> -->
+                                <input id="icon_prefix" name="name" type="text" tabindex="2"  class="validate white-text">
+                                <label for="icon_prefix" class="white-text">اسم</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <!-- <i class="mdi-editor-mode-edit prefix white-text"></i> -->
+                                <textarea id="icon_prefix2" name="message" tabindex="3"  class="materialize-textarea white-text"></textarea>
+                                <label for="icon_prefix2" class="white-text">پیام</label>
+                            </div>
+                            <div id="messageBtn" class="col offset-s7 s5">
+                                <button class="btn waves-effect waves-light red darken-1" tabindex="4"  type="button">ارسال
+                                <i class="mdi-content-send right white-text"></i>
+                            </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col l3 offset-l1 s12">
+                  <h5 class="white-text">ارتباط با ما</h5>
+                  <ul class="social">
+                      <li>
+                        <a target="_blank" href="mailto:deepskyblueacm@gmail.com?Subject=Hello%20skyblue">
+                          <span class="email socialLogo"></span>
+                          <p>ایمیل</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a target="_blank" href="https://telegram.me/skyblueacm">
+                          <span class="telegram socialLogo"></span>
+                          <p>تلگرام</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a target="_blank" href="https://twitter.com/search?f=tweets&vertical=default&q=skyblueacm&src=typd">
+                          <span class="twitter socialLogo"></span>
+                          <p>توییتر</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a target="_blank" href="https://www.instagram.com/skyblueacm/">
+                          <span class="instagram socialLogo"></span>
+                          <p>اینستاگرام</p>
+                        </a>
+                      </li>
+
+                  </ul>
+              </div>
+
+
+
+
+            </div>
+        </div>
+        <div class="footer-copyright default_color noHeight">
+            <div class="container">
+                <!-- footer -->
+            </div>
+        </div>
+
+        <div class="myfooter">
+        </div>
+
+    </footer>
+
+    <div class="freeSpace"></div>
+
+
+
+    <!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
+
+
+    <!-- typed -->
+    <script src="js/typed.min.js"></script>
+    <script>
+        $(function() {
+            $(".typed-text").typed({
+                strings: ["ما دوست داریم بسازیم", "با هم بالا برویم"],
+                typeSpeed: 100,
+                loop: true,
+                showCursor: false,
+                backDelay: 3000,
+            });
+        });
+    </script>
+
+    <!-- slider -->
+    <script src="js/unslider.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            var slider = $('.my-slider').unslider({
+                animation:'fade',
+                keys: {
+                	prev: 39,//chap
+                	next: 37,//rast
+                	stop: 27 //esc
+                },
+                nav:false,
+                arrows:false,
+                animateHeight:true,
+            });
+
+            var activeIndex = Math.floor(Math.random() * 7);
+            $('.c' + activeIndex).addClass('active');
+            slider.data('unslider').animate(activeIndex);
+
+            slider.on('unslider.change', function(event, index, slide) {
+                $('.c' + activeIndex).removeClass('active');
+                activeIndex = (index!=-1)?index:6;
+                // alert(index + " " + activeIndex);
+                $('.c' + activeIndex).addClass('active');
+            });
+
+            $('#amirhossein').click(function() {slider.data('unslider').animate(0)});
+            $('#hoda').click(function() {slider.data('unslider').animate(1)});
+            $('#negar').click(function() {slider.data('unslider').animate(2)});
+            $('#nafise').click(function() {slider.data('unslider').animate(3)});
+            $('#mahsa').click(function() {slider.data('unslider').animate(4)});
+            $('#navid').click(function() {slider.data('unslider').animate(5)});
+            $('#sadegh').click(function() {slider.data('unslider').animate(6)});
+
+        });
+    </script>
+
+    <!-- tooltip -->
+    <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#sadegh').tooltipster({theme: 'tooltipster-borderless',delay: 10});
+            $('#amirhossein').tooltipster({theme: 'tooltipster-borderless',delay: 10});
+            $('#hoda').tooltipster({theme: 'tooltipster-borderless',delay: 10});
+            $('#mahsa').tooltipster({theme: 'tooltipster-borderless',delay: 10});
+            $('#negar').tooltipster({theme: 'tooltipster-borderless',delay: 10});
+            $('#navid').tooltipster({theme: 'tooltipster-borderless',delay: 10});
+            $('#nafise').tooltipster({theme: 'tooltipster-borderless',delay: 10});
+        });
+    </script>
+
+    <script>
+        jQuery(window).load(function () {
+            $('.myloader-wrap').fadeOut(400);
+        });
+    </script>
+
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88165025-1', 'auto');
+      ga('send', 'pageview');
+
+
+  </script>
+
+  <!-- message ajax -->
+  <script type="text/javascript" src="js/notify.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('#messageBtn').click( function() {
+      if( $('#icon_prefix2').val() != "" ) {
+        $.post("/message",
+          {
+              email: $('#icon_email').val(),
+              name: $('#icon_prefix').val(),
+              message: $('#icon_prefix2').val()
+          },
+          function(data, status){
+            if(status == "success") {
+              $.notify("پیام شما ارسال شد :)", "success");
+              $('#icon_email').val('');
+              $('#icon_prefix').val('');
+              $('#icon_prefix2').val('');
+            } else {
+              $.notify("خطا در ارسال پیام!", "error");
+            }
+            // alert("Data: " + data + "\nStatus: " + status);
+          });
+      } else {
+        $.notify("لطفا متن پیام را وارد کنید", "warn");
+      }
+    });
+  });
+  </script>
+
+
+  <script>
+    $(document).ready(function() {
+
+      var width = $(window).width();
+      var cloudsCount = 4;
+      loop();
+      addCloud();
+      // addCloud();
+
+      var cloudId = 1;
+      function addCloud() {
+
+        var randCloud = Math.round(Math.random() * cloudsCount) + 1;  //select cloud
+        var cloudSize = Math.round(Math.random() * (400 - 100)) + 100;
+        var speed = Math.round(Math.random() * (70000 - 40000)) + 40000;
+        var opacity = (Math.round(Math.random()*(40-10))+10) / 100.00;
+        var top = Math.round(Math.random() * 500);
+
+        // opacity = cloudSize / 1000.00 + 0.2;
+        // alert(opacity);
+
+        console.log('randCloud:' + randCloud);
+        console.log('cloudSize:' + cloudSize);
+        console.log('speed:' + speed);
+        console.log('opacity:' + opacity);
+
+        $('.clouds').append(
+          '<div style="background-size:' + cloudSize + 'px; opacity: ' + opacity + ';top:' + top + 'px; left:' + -cloudSize + 'px" id="cloud' + cloudId + '" class="cloud cloud' + randCloud + '"></div>'
+        );
+        // $('#cloud' + cloudId).css("background-image", "url(../img/clouds/1.png)");
+        $('#cloud' + cloudId).animate({left: $(document).width() + cloudSize }, speed);
+
+        cloudId++;
+
+      }
+
+      function loop() {
+        var randTime = Math.round(Math.random() * (7000 - 5000)) + 5000;
+        setTimeout(function() {
+          addCloud();
+          loop();
+        }, randTime);
+      }
+
+      // clear when resize
+      $(window).resize(function() {
+        if( $(window).width() != width ) {  //only if width change!
+          $('.clouds').html("");
+          width = $(window).width();
+          addCloud();
+        }
+      });
+
+    });
+
+
+  </script>
+
+  <script>
+    $(document).ready(function() {
+      $('.closeBtn').click( function() {
+        $('.closeBtn').fadeOut();
+        $('.gameBox').fadeOut();
+        $('.freeSpace').fadeOut();
+      });
+
+      $('.plusBtn').click( function() {
+
+      });
+    });
+  </script>
+
+
+
+
+</body>
+
+</html>
